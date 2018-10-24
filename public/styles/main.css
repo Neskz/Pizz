@@ -1,1 +1,61 @@
 /* Main style */
+
+
+.btn
+{
+    position:relative;
+    left:60%;
+    background: url(/static/fondnoir.jpg);
+}
+/*
+header
+{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}*/
+#logo
+{
+    display: flex;    
+    position: relative;
+}
+
+#logo img
+{
+    width: 60px;
+    height: 60px;
+}
+
+header h1
+{
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    display:flex;
+    left:1%;
+    bottom:45px;
+}
+
+
+ul
+{
+    position: relative;
+    display:flex;
+    color:black;
+    left:50%;
+}
+
+
+header li
+{
+    margin-right: 20px;
+}
+
+nav
+{
+    background:url(/static/fondpoudre.jpg);
+}
+
+body
+{
+    background: url(/static/fond.jpg);
+}
