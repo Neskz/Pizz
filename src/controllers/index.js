@@ -6,7 +6,7 @@ router.get("/", (req, res) => {
   res.render("index", pizzas.Lire());
 });
 
-router.get("/", (req, res) => {
+router.get("/login", (req, res) => {
   res.render("page_login");
 });
 
